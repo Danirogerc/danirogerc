@@ -24,21 +24,23 @@ const education = () => {
   const degrees = {
     bachelor: ["BBA in Business and Management"],
     postgraduate: ["Full-Stack software Engineer by Tripleten"],
-    other_certifications: [""],
+    other_certifications: [],
   };
+
+  return degrees;
 };
 
 const coding = () => {
-  const fullStack = {
-    frontend: ["HTML", "CSS", "JavaScript", "React", "Reac Router", "Next.js"],
+  const fullstack = {
+    frontend: ["HTML", "CSS", "JavaScript", "React", "React Router", "Next.js"],
     backend: ["Node.js", "Supabase", "Prisma"],
     cloud: ["Supabase"],
     tools: ["Figma", "Vite", "npm", "Postman", "Vercel"],
   };
 
-  const envVariables = ["VSCode", "Cursor", "GitHub"];
+  const environment = ["VSCode", "Cursor", "GitHub"];
 
-  return { fullStack, envVariables };
+  return { fullstack, environment };
 };
 
 export { contact, life, education, coding };
