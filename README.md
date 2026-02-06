@@ -9,7 +9,7 @@
 ## 🧬 Developer Card
 
 ```javascript
-const contact = {
+const contact = () => {
   linkedin: "https://www.linkedin.com/in/danirogerc",
   github: "https://github.com/danirogerc",
 };
